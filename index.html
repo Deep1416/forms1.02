@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="fname">Firstname:</label>
+        <input type="text" name="" id="fname" />
+        <br /><br />
+        <label for="Mname">Middlename:</label>
+        <input type="text" name="" id="Mname" />
+        <br /><br />
+        <label for="Lname">Lastname:</label>
+        <input type="text" name="" id="Lname" />
+        <br /><br />
+        <label for="course">Course :</label>
+        <select name="" id="course">
+          <option value="">Course</option>
+          <option value="">B.tech</option>
+          <option value="">BCA</option>
+          <option value="">MCA</option>
+          <option value="">M.tech</option>
+          <option value="">BBA</option>
+        </select>
+        <br /><br />
+        <label for="Gender">Gender :</label>
+        <br />
+        <input type="radio" name="Gender" id="male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="Gender" id="female" />
+        <label for="female">Female</label>
+        <br />
+        <input type="radio" name="Gender" id="Other" />
+        <label for="Other">Other</label>
+        <br /><br />
+        <label for="dob">DOB</label>
+        <input type="datetime-local" name="" id="dob" />
+        <br /><br />
+        <label for="phone">Phone : </label>
+        <input type="text" name="" id="phone" placeholder="+91" size="3" />
+        <input type="text" name="" id="phone" maxlength="10" />
+        <br /><br />
+        <label for="add">Address : </label>
+        <br />
+        <textarea name="" id="add" cols="30" rows="5"></textarea>
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="abc@gmail.com"
+          required
+        />
+        <br /><br />
+        <label for="Pass">Password:</label>
+        <input type="password" name="" id="pass" />
+        <br /><br />
+        <label for="repass">Re-type password:</label>
+        <input type="password" name="" id="repass" />
+        <br /><br />
+        <input type="checkbox" name="" id="agree" />
+        <label for="agree">Agree to terms and conditions</label>
+        <br /><br />
+        <label for="file">Choose File</label>
+        <input type="file" name="" id="file" />
+        <br /><br />
+        <label for="Color">Choose Color</label>
+        <input type="color" name="" id="color" />
+        <br /><br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Sumbit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
